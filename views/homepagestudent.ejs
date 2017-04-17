@@ -1,0 +1,27 @@
+ <html>
+  <head>  
+  <h1>Your Profile</h1>
+ <div class="row">
+    <% if(x) { %>
+        <% for(var i=0; i<x.length; i++){ %>
+         
+            <div class="card col-xs-4">
+           
+                <h4 class="card-title"> Username: <%= x[i].username %></h4>
+                <h4 class="card-title"> Password: <%= x[i].password %></h4>
+            </div>
+       
+        <% } %>
+    <% } else { %>
+        <p>something wrong</p>
+    <% } %>
+            </div> 
+            <br>
+            <br>  
+      <title>Your Account</title>
+  </head>
+  <body>
+<a href="/uploadWork"> <button type="button"> Upload Work </button></a>
+
+  </body>
+ </html>
