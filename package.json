@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "SE-miniproject",
+=======
+  "name": "SE miniproject",
+>>>>>>> 3232a0cea411f10fc8878d6a9f64c1654f44fc53
   "version": "1.0.0",
   "description": "SE miniproject",
   "main": "index.js",
