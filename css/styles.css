@@ -1,14 +1,31 @@
 h1{
-  color: black;
+  color: rgb(180,180,180);
   font-family: Helvetica;
   text-align: center;
 }
 button {
-    background-color: #4CAF50;
+    background-color: rgb(200,200,200);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 50%;
+    width: 20%;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  font-family: Helvetica;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.row {
+  font-family: Helvetica;
 }

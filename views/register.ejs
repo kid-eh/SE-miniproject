@@ -3,12 +3,45 @@
 <head>
   <title>Register</title>
   <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <style type="text/css">
+  h1{
+  color: rgb(180,180,180);
+  font-family: Helvetica;
+  text-align: center;
+}
+button {
+    background-color: rgb(200,200,200);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  font-family: Helvetica;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.row {
+  font-family: Helvetica;
+}
+  </style>
 </head>
 <body>
   <h1>Create Account</h1>
   <div class="container">
-  <center>
-    <form action="/register" method="post">
+  <!-- <center> -->
+    <form action="/register" method="post"  style="background-color:#f1f1f1">
       <br>
       <br>
       <label><b>Username</b></label>
@@ -22,7 +55,7 @@
       <button type="submit" class="signupbtn">Sign Up</button><br><br>
       <a href = "/" id ="backbtn" >Back</a>
     </form>
-  </center>
+  <!--</center>-->
   </div>
 </body>
 </html>

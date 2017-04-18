@@ -1,0 +1,27 @@
+
+
+ <html>
+    <body> 
+
+ <h1>Student Portfolio </h1>
+ <form action="/allportfolios" method="POST">
+ <div class="row">
+    <% if(x) { %>
+        <% for(var i=0; i<x.length; i++){ %>
+            <div class="card col-xs-4">
+                <h4 class="card-title"> Name: <%= x[i].username %></h4>
+                <h4 class="card-title"> Work: <%= x[i].work %></h4>
+            </div>
+        <% } %>
+    <% } else { %>
+        <p>something wrong</p>
+    <% } %>
+            </div>   
+    
+    Student <br> <input type="text" name="name" placeholder="Name" required/> 
+    <a href="/allportfolios"> <button type="button"> View Portfolio </button></a>
+    <br>
+   <br>
+</form>
+</body>
+ </html>

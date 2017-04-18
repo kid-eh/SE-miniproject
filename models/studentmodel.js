@@ -10,6 +10,9 @@ var studentSchema = new Schema ({
 	password : {
 		type: String,
 	},
+	work : {
+		type: String,
+	}
 })
 
 var student = mongoose.model("student", studentSchema);

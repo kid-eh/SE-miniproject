@@ -19,8 +19,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(require("./routes/home.js"));
 app.use(require("./routes/register.js"));
 app.use(require("./routes/student.js"));
-app.use(require("./routes/uploadWork.js"));
-app.use(require("./routes/viewaccount.js"));
+app.use(require("./routes/viewstudentportfolio.js"));
+// /app.use(require("./routes/viewportfolio.js"));
 
 
 // SERVER LISTENING
