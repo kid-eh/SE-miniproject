@@ -23,6 +23,8 @@ app.use(require("./routes/viewstudentportfolio.js"));
 
 
 // SERVER LISTENING
-app.listen(3000, function() {
-    console.log("Server is Running on Port 3000");
-});
+// app.listen(3000, function() {
+//     console.log("Server is Running on Port 3000");
+// });
+
+app.listen(process.env.PORT);
