@@ -2,7 +2,6 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var mongoose = require('mongoose');
 var router = express.Router();
-var engines = require('consolidate');
 mongoose.connect("mongodb://localhost:27017/KIDminiproj");
 
 var app = express();
